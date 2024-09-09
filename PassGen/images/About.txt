@@ -1,0 +1,1 @@
+PassGen is a sleek, responsive password generator that creates secure and random passwords. With customizable password length and easy-to-use features like one-click copying of passcode.
