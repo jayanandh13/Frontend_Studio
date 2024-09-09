@@ -1,0 +1,1 @@
+NetflixClone is a static recreation of the popular Netflix interface, designed using HTML and CSS. While this version focuses on replicating the look and feel of Netflix, it’s built without responsiveness.
