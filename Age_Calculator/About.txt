@@ -1,0 +1,1 @@
+Age Calculator is an interactive web-based tool that allows users to calculate their exact age based on their birth date. The project leverages HTML, CSS, and JavaScript to create a sleek, user-friendly interface that visually engages users with animations and responsive design.
