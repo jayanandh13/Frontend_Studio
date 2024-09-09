@@ -1,0 +1,1 @@
+This app is a minimalist and interactive task management tool, featuring a clean, modern design with responsive capabilities,Users can add tasks, mark them as completed, and delete them easily.
