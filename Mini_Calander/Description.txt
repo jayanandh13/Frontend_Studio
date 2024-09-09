@@ -1,0 +1,1 @@
+The calendar dynamically adapts to different screen sizes, offering an engaging user experience across devices.
