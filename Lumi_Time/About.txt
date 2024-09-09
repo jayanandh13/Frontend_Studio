@@ -1,0 +1,1 @@
+LumiTime is a visually captivating digital clock interface designed to showcase time with sleek, glowing effects and responsive animations. The project combines a modern, minimalistic design with subtle interaction features like hover scaling.
