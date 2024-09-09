@@ -1,0 +1,1 @@
+Weatherly-Animated is a sleek, responsive weather application that displays real-time weather data using the OpenWeather API. The app features smooth animations.
