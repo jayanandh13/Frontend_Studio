@@ -1,0 +1,4 @@
+It is a sleek and responsive web application that allows users to search for high-quality images from the Unsplash API.
+
+
+credits - unsplash.com
