@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background: #edeaff;
+    font-family: "Courier Prime", monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.stopwatch {
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/zoro.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+    margin: 100px auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    animation: fadeIn 1s ease-in-out;
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+}
+
+.stopwatch h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 300;
+    animation: slideInFromTop 1s ease-out;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttons img {
+    width: 50px;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.buttons img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.buttons img:nth-child(2) {
+    width: 80px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromTop {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* --------------------------------------------Media Queries-------------------------------------------------------------------------------*/
+@media (max-width: 768px) {
+    .stopwatch {
+        padding: 20px;
+        margin: 50px auto;
+    }
+    
+    .stopwatch h1 {
+        font-size: 30px;
+    }
+    
+    .buttons img {
+        width: 40px;
+        margin: 0 10px;
+    }
+
+    .buttons img:nth-child(2) {
+        width: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .stopwatch {
+        padding: 10px;
+        margin: 30px auto;
+    }
+    
+    .stopwatch h1 {
+        font-size: 24px;
+    }
+
+    .buttons img {
+        width: 30px;
+        margin: 0 5px;
+    }
+
+    .buttons img:nth-child(2) {
+        width: 50px;
+    }
+}
