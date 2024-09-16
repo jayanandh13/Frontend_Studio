@@ -1,0 +1,2 @@
+ It is a modern and responsive UI component featuring animated social media icons with 3D hover effects.
+The icons dynamically change background colors and scale up when hovered, creating a visually engaging experience. 
