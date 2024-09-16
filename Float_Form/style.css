@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Guerrilla&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+
+.input-field {
+    position: absolute;
+}
+
+.input-field input {
+    width: 350px;
+    height: 60px;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 0 15px;
+    border: 2px solid white;
+    background: transparent;
+    outline: none;
+    color: white;
+}
+
+.input-field label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 19px;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border: 2px solid #1cde79;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    top: 0;
+    font-size: 16px;
+    padding: 0 10px;
+    background: #191825;
+}
+
+.header-content {
+    position: absolute;
+    margin-bottom: -200px;
+}
+
+.header-content input {
+    width: 350px;
+    height: 60px;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 0 15px;
+    border: 2px solid white;
+    background: transparent;
+    outline: none;
+    color: white;
+}
+
+.header-content label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 19px;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.header-content input:focus {
+    border: 2px solid #1cde79;
+}
+.hero{
+    position: absolute;
+    margin-bottom: -400px;
+}
+.hero input {
+    width: 350px;
+    height: 60px;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 0 15px;
+    border: 2px solid white;
+    background: transparent;
+    outline: none;
+    color: white;
+}
+.hero label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 19px;
+    pointer-events: none;
+    transition: 0.3s;
+}
+.hero input:focus {
+    border: 2px solid #1cde79;
+}
+
+
+.signup-btn {
+    margin-top: 600px;
+    position: relative;
+    padding: 50px;
+}
+
+.signup-btn button {
+    width: 350px;
+    height: 60px;
+    background-color: #1cde79;
+    color: white;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.signup-btn button:hover {
+    background-color: #14b864;
+}
