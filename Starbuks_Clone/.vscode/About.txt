@@ -1,0 +1,3 @@
+This is a Starbucks clone website made using HTML and CSS. It resembles the original Starbucks website in terms of design and layout. 
+
+The website provides information about the menu and allows the user to browse through the different sections of the website
