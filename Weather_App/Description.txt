@@ -1,1 +1,0 @@
-The Weather App is a simple and user-friendly web application that provides real-time weather information based on user input. It allows users to search for a city's weather and displays essential meteorological details, including temperature, humidity, and wind speed.
